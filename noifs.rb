@@ -1,7 +1,7 @@
+require 'pry'
 def numbers(a,b)
-
+    
     case true
-        case true
         when a>b
              "#{a} is greater than #{b}"
     
@@ -14,5 +14,5 @@ def numbers(a,b)
 
 
 end
+binding.pry
 
-numbers(4,7)
